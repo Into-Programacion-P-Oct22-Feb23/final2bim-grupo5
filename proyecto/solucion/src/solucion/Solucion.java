@@ -64,11 +64,9 @@ public class Solucion {
                 bandera = false;
             }
         }
-        if (contador > 0) {
             mensaje = obtenerMensaje.obtenerCadena(contador);
             System.out.printf("Con número de cuentas %d es: %s",
                     contador, mensaje);
-        }
     }
 
 }
